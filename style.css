@@ -1,0 +1,568 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-section{
+  background-image: url(./img/bg1-min.png);
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #6e71c7;
+  
+}
+
+.navbar .nav-item {
+     /* margin: 30px 20px; */
+    font-size: 22px;
+    padding-top: 10px;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+}
+.navbar-expand-lg .navbar-nav{
+    gap:30px;
+
+}
+
+.navbar .nav-link{
+    color: white;
+    font-family: normal normal normal Helvetica;
+}
+
+.btn-1{
+    font: normal normal Helvetica;
+    font-size: 16px;
+    /* padding: 10px; */
+    color: #fff;
+    text-transform: uppercase;
+    /* line-height: 58px; */
+    background: #d53434 0 0 no-repeat padding-box;
+    border-radius: 29px;
+    text-align: center;
+    border: none;
+    padding: 10px  !important;
+    /* width: 220px; */
+    /* height: 50px; */
+    /* margin-top: 50px; */
+    /* margin-left: 18px; */
+}
+
+.my-container{
+    padding: 10px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    
+}
+
+.sec-2{
+     display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    /* margin: 10px 10px 0px 10px; */
+    
+    
+}
+    
+  
+/* .bear{
+    width: 450px;
+    margin: 0px 100px;
+}    */
+    
+
+
+.data{
+    position: absolute;
+    top: 200px;
+    margin:40px 500px;
+}
+.input-button{
+    margin-top: 30px;
+    /* margin-left: 150px; */
+    background-color: #fff;
+    width: 400px;
+    height: 58px; 
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+/* same class dya kro agr doonu ki sstyling same hai to  */
+.icon{
+    padding: 0px 15px;
+}
+
+.minus{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.one{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plus{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Connectwallet{
+     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 58px;
+    background: #d53434 0 0 no-repeat padding-box;
+    border-radius: 29px;
+    width: 244px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 40PX;
+    /* margin-right: 10px; */
+    /* margin-left: 100PX; */
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.BUY{
+    background-color: black;
+    color: white;
+    line-height: 45px;
+    border-radius: 20px;
+    border: none;
+    /* width: 200px;  btn to width ni dyte kbhi text xiaya hota h to wo btn ko khrb k dyta hai q k us k pass width
+    200 thi or text agy prh gya 200 sy to width ni dya kro.*/ 
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.BUY>span{
+    margin-right: 10px;
+}
+
+
+.main_wrapper{
+    position: relative;
+}
+
+.content_wrapper {
+    position: absolute;
+    width: 60%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top:20%;
+    text-align: center;
+}
+.bearLeft{
+    text-align: left;
+}
+.bearRight{
+    text-align: right;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.sec-3{
+    background-image: url(https://www.grumpybeartown.com/images/bg2-min.png);
+    width: 100%;
+    background-size: cover;
+    margin-top: -20px;
+    justify-content: space-between;
+}
+
+.head-1{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 3.4em;
+
+}   
+
+.para-1{
+    font-size: 1.75em;
+    width: 100%;
+    color: white;
+    margin-top: 50px;
+    line-height: 35px;
+}
+
+.img-1{
+    margin-top: 60px;
+}
+
+
+.head-2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.head-4{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.sec-4 li{
+    list-style: none;
+}
+
+.list{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.TRAITS{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 150PX;
+}
+
+.num{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 180PX;
+    margin-top: 80px;
+}
+
+.sec-5{
+    background-image: url(https://www.grumpybeartown.com/images/bg2-min.png);
+    width: 100%;
+    background-size: cover;
+    margin-top: 0px;
+    padding: 50PX;
+}
+
+.sub-container{
+    background: #6cb1ed 0 0 no-repeat padding-box;
+    width: 95%;
+    max-width: 1161px;
+    margin: 0 auto;
+    padding: 50px 100px;
+
+}
+
+
+.ROADMAP{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #fce956;
+}
+
+.Roadmap-container {
+    display: flex;
+    padding: 25px;
+    background-color: #fce956;
+}
+
+.watch-img{
+    margin-left: 10px;
+} 
+
+h2{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold; 
+  
+
+}
+
+.roadmap-p{
+    font-size: 22px;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-weight:500;
+}
+
+.Roadmap-sec-2{
+    display: flex;
+    margin-top: 80px;
+}
+
+
+.Roadmap-container-2{
+    display: flex;
+}
+
+
+.roadmap-p2{
+    border: 4px solid black;
+    font-size: 50px;
+    padding: 10px;
+    font-weight: 500;
+    width: 140px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.roadmap-p3{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 20px ;
+    word-spacing: 0px;
+    width: 800px;
+    margin-top: 50px;
+}
+
+
+
+.sec-6{
+    background-image: url(/images/bg4-min.png);
+    width: 100%;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.Team-img h3{
+    font-size: 1.75rem;
+    margin-left: 41px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.Team-img p{
+    color: #fce956;
+    margin-left: 67px;
+}
+.sec-7{
+    background-color: #003063;
+}
+
+.sec-7 img{
+ padding: 0 521px;
+}
+.sec-7 p{
+ text-align: center;
+ margin-top: 10px;
+ color: white;
+ font-size: 1rem;
+}
+
+.mobile_cartoon img{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.team-head-1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #fce956;
+}
+
+/* .mobile_cartoon img{
+    display: block;
+} */
+tbody, td, tfoot, th, thead, tr{
+    background-color: unset !important;
+    color: #fff;
+}
+.custom-table th:nth-child(1){
+    width: 200px;
+}
+@media screen and (max-width:600px) {
+    /* .navbar-expand-lg .navbar-nav{
+        gap:5px
+    } */
+    .btn-1{
+    font-size: 14px;
+    }
+    .cartoonImg{
+        display: none;
+    }
+    .content_wrapper{
+        position: unset;
+    }
+    .content_wrapper .text_wrapper img{
+        width: 84%;
+    }
+    .input-button{
+        width: 87%;
+        height: 42px;
+    }
+    .one{
+        font-size: 1.50rem;
+    }
+    .minus{
+        font-size: 1.50rem;
+    }
+    .plus{
+        font-size: 1.50rem;
+    }
+    .Connectwallet{
+        font-size: 1rem;
+        margin-top: 12px;
+        line-height: 35px;
+        width: 200px;
+    }
+    .BUY{
+        margin-left: 0px;
+    line-height: 0px
+    }
+    .mobile_cartoon img{
+        text-align: center;
+        margin-top: 18px;
+        margin-bottom: 19px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .ROADMAP {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .Roadmap-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .watch-img {
+        margin-left: 0;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .roadmap-p {
+        font-size: 18px;
+        line-height: 20px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .Roadmap-sec-2 {
+        margin-top: 40px;
+    }
+
+    .Roadmap-container-2 {
+        flex-direction: column;
+    }
+
+    .roadmap-p2 {
+        font-size: 30px;
+        padding: 5px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .roadmap-p3 {
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .sec-6 {
+        padding: 20px;
+    }
+
+    .Team-img h3 {
+        font-size: 1.5rem;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .Team-img p {
+        margin-left: 0;
+        text-align: center;
+    }
+    .TRAITS{
+        margin-left: 0px
+    }
+    .Team-img img{
+       margin-left: 30%;
+    }
+    .sec-7 img{
+        padding: 0px 30%;
+    }
+    
+    .mobile_cartoon{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+    .mobile_cartoon img{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        /* text-align: center;
+        margin-top: 20px; */
+
+    
+    /* .mobile_cartoon img{
+        width: 400px;
+    }
+    .head-1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .navbar-brand>img{
+        width: 200px;
+    }
+
